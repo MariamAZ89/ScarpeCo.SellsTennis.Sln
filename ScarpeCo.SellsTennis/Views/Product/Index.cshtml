@@ -1,0 +1,22 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h2 class="text-center">Tennis shoes</h2>
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-4 mt-1">
+            <div class="card" style="width: 18rem;">
+                <img src="@product.CoverImage" style="width:287px;height:260px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">$ @product.Price </p>
+                    <a asp-controller="Product" asp-action="Details"
+                       asp-route-id="@product.Id" target="_blank" class="btn btn-primary">Details</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
