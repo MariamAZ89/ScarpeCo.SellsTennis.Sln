@@ -16,9 +16,9 @@ public static class ProductRepository
             CoverImage = "/images/products/tennis.jpg",
             AdditionalImages = new List<string>
             {
-                "/images/products/ATP.jpg",
-                "/images/products/Danloup1.jpg",
-                "/images/products/RUN.jpg"
+                "/images/products/tennis.jpg",
+                "/images/products/tennis.jpg",
+                "/images/products/tennis.jpg"
             }
         },
         new Product
@@ -28,20 +28,20 @@ public static class ProductRepository
             CoverImage = "/images/products/product2.jpg",
             AdditionalImages = new List<string>
             {
-                "/images/products/Tour.jpg",
-                "/images/products/Wilson.jpg",
-                "/images/products/Yueshong.jpg"
+                "/images/products/tennis.jpg",
+                "/images/products/tennis.jpg",
+                "/images/products/tennis.jpg"
             }
         },
         new Product
         {
             Id = 3, Name = "Tennis Shoes 3", Price = 130.00f,
             Description = "The best tennis shoes you can find.",
-            CoverImage = "/images/products/Yueshong.jpg",
+            CoverImage = "/images/products/tennis.jpg",
             AdditionalImages = new List<string>
             {
                 "/images/products/tennis.jpg",
-                "/images/products/Yueshong.jpg",
+                "/images/products/tennis.jpg",
                 "/images/products/tennis.jpg"
             }
         },
@@ -52,9 +52,9 @@ public static class ProductRepository
             CoverImage = "/images/products/tennis.jpg",
             AdditionalImages = new List<string>
             {
-                "/images/products/Wilson.jpg",
                 "/images/products/tennis.jpg",
-                "/images/products/Yueshong.jpg"
+                "/images/products/tennis.jpg",
+                "/images/products/tennis.jpg"
             }
         },
         new Product
@@ -65,8 +65,8 @@ public static class ProductRepository
             AdditionalImages = new List<string>
             {
                 "/images/products/tennis.jpg",
-                "/images/products/Yueshong.jpg",
-                "/images/products/Wilson.jpg"
+                "/images/products/tennis.jpg",
+                "/images/products/tennis.jpg"
             }
         },
         new Product
@@ -78,7 +78,7 @@ public static class ProductRepository
             {
                 "/images/products/tennis.jpg",
                 "/images/products/tennis.jpg",
-                "/images/products/Wilson.jpg"
+                "/images/products/tennis.jpg"
             }
         }
     };
